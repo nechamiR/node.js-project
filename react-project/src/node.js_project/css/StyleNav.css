@@ -1,0 +1,43 @@
+.nav {
+    text-align: center;
+    background-color:#f0ede8;
+    height: 3rem;
+    width: 100vw;
+    font-size: large;
+    padding: 1rem 0;
+    justify-content: center;
+}
+.link {
+    color: #727d68;
+    margin: 2rem;
+    text-decoration: none;
+}
+
+.link:hover {
+    color:white;
+}
+/* קיבוע התמונה כרקע לתוך תיבת ה-nav */
+.nav {
+    background-image: url('../logo2.png'); /* נאמר 'path/to/your/image.png' לדוגמה */
+    background-size: contain; /* התאמת התמונה לתוך התיבה */
+    background-repeat: no-repeat; /* מניעת חזרות ברקע */
+    background-position: left; /* מיקום התמונה */
+    height: 3rem;
+    width: 100vw;
+/*     width: 100px; רוחב תיבת ה-nav (ניתן לשנות על פי הצורך) */
+/*    height: 50px;  גובה תיבת ה-nav (ניתן לשנות על פי הצורך) */
+}
+
+/* סגנון עיצוב נוסף ללוגו כפתור */
+.nav-logo-button {
+    background: transparent; /* הרקע שקוף */
+    border: none; /* אין מסגרת */
+    cursor: pointer; /* סמן מקום לסמן יד */
+    outline: none; /* אין קו עיגול מסביב ללוגו כאשר הוא מקודם */
+}
+/* class יצירת 
+הפעיל link שריאקט תזהה אותו ותפעיל אותו עבור ה  */
+.active {
+    color:white;
+    font-size: larger;
+}

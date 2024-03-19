@@ -1,0 +1,13 @@
+/* קיבוע התמונה כרקע לתוך תיבת ה-nav */
+.div{
+    /* background-image: url(''); 
+    background-size: contain;  
+    background-repeat: no-repeat; מניעת חזרות ברקע 
+    background-position: center; מיקום התמונה באמצע */
+
+background-image: url('../bb.png') ;
+background-size: cover; 
+height: 45rem;
+margin-top: -20px;
+margin-right: -10px
+}
